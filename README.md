@@ -6,6 +6,14 @@ Este repositório contém a implementação do modelo LLAMA (Large Language Mode
 
 Este projeto fornece uma visão detalhada da implementação de um modelo de linguagem baseado em Transformer. Ele inclui o download e pré-processamento do dataset, definição da arquitetura do modelo, funções de treinamento, validação e teste.
 
+## Arquivos
+
+- **llama.py**: Versão final do modelo
+- **main .py**: Versão do modelo em notebook (com todos os passos de construção, treino e teste comentados)
+- **piriripopo.pdf**: arquivo documentando tudo que foi feito
+- **tinyshakespeare_model.model**: modelo de tokenização fine-tunado
+- **tinyshakespeare_model.vocab**: vocabulário pronto para uso
+
 ## Arquitetura do Modelo
 
 A arquitetura do modelo de linguagem LLAMA é uma variante do Transformer com várias modificações e otimizações. Os principais componentes incluem:
